@@ -1,0 +1,93 @@
+hr{
+color: red;
+}
+form{
+	size: 50cm;
+}
+p{
+	color: white;
+	font-size: 20;
+}
+h1{
+	color: rgb(255, 0, 0);
+}
+font {
+	color: #fff;
+}
+body {
+    background-color: #000000;
+}
+@media only screen and (max-width:1230px) and (min-width:990px){ 
+
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}
+@media only screen and (max-width: 479px) {
+
+}
+* { padding: 0; margin: 0; list-style: none; border: 0 }
+
+.slider {
+	overflow: hidden;
+	position: relative
+}
+.slider ul.slider_liste li {
+	font-size: 0;
+	width: 750;
+	height: 750;
+	float: left
+}
+.slider ul.slider_liste li a img {
+	width: 750
+}
+
+/* buton */
+a.onceki, a.sonraki {
+	width: 70px;
+	height: 70px;
+	text-decoration: none;
+	font: 32px/70px Arial;
+	color: #fff;
+	border-radius: 100px;
+	position: absolute;
+	top: 50%;
+	margin-top: -35px;
+	background: rgba(0, 0, 0, .5);
+	text-align: center
+}
+a.onceki { left: 20px }
+a.sonraki { right: 20px }
+a.onceki:hover, a.sonraki:hover { background: #000 }
+* { padding: 0; margin: 0; list-style: none; border: 0 }
+
+.slider {
+	overflow: hidden;
+	position: relative
+}
+.slider ul.slider_liste li {
+	font-size: 0;
+	width: 100%;
+	float: left
+}
+.slider ul.slider_liste li a img {
+	width: 100%
+}
+
+/* buton */
+a.onceki, a.sonraki {
+	width: 70px;
+	height: 70px;
+	text-decoration: none;
+	font: 32px/70px Arial;
+	color: #fff;
+	border-radius: 100px;
+	position: absolute;
+	top: 50%;
+	margin-top: -35px;
+	background: rgba(0, 0, 0, .5);
+	text-align: center
+}
+a.onceki { left: 20px }
+a.sonraki { right: 20px }
+a.onceki:hover, a.sonraki:hover { background: #000 }
